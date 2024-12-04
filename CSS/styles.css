@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}
+.header-h1 {
+    font-size: 2em;
+}
+.header-right {
+    float: right;
+    margin-right: 5em;
+}
+.header-right a {
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+    margin-left: 1.6em;
+}
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="date"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#location-name {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.stats {
+    text-align: center;
+    margin-top: 20px;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto 40px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+.stats-title {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+.visit-count {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+#searched-destinations-table {
+    padding: 0 60px;
+}
+
+#searched-destinations-table th,
+#searched-destinations-table td {
+    padding: 6px;
+}
+
+@media (max-width: 600px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+    th, td {
+        text-align: left;
+    }
+}
