@@ -4,7 +4,7 @@
 <div align="center">
   <h3 align="center">API website</h1>
   <p align="center">
-    Travel information website based on an API information gathering. 
+    Travel information website based on an API data gathering. 
   </p>
 </div>
 
@@ -20,38 +20,31 @@ This application integrates multiple APIs for weather, location information, fla
 It also tracks user searches and monitors visitor statistics for better insights into the usage and performance of the website.
 
 ## Key Features
-### Current Weather Forecast:
-
+### Destination information:
+**Current Weather Forecast:**
 The app provides the current weather for the specified location. If the weather data isn't available for the selected location,
 it will show the weather forecast for the nearest available city.
 
-### Average Temperature:
-
+**Average Temperature:**
 Displays the average temperature for the month you plan to travel (based on historical data), helping you plan your trip according to the weather.
 
-### Country Information:
-
+**Country Information:**
 The country to which the location belongs, along with the corresponding country flag.
 
-### Capital City:
-
+**Capital City:**
 Information about the capital city of the country.
 
-### Currency Information:
-
+**Currency Information:**
 Displays the local currency and a conversion rate to Euros. If the country already uses Euros, no conversion is shown.
 
-## Additional Features
-Second subpage displays another funcionality of the website.
-
-### Unique Visitor Count:
-
+### Website statistics:
+**Unique Visitor Count:**
 Tracks the number of unique visitors, considering one visit per unique IP address within the last 60 minutes.
 
-### Visit Time Statistics:
+**Visit Time Statistics:**
 Displays how many visitors accessed the site during different time periods of the day.
 
-### Search Statistics:
+**Search Statistics:**
 A table showing the most searched vacation destinations, their corresponding countries, and the number of searches.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
